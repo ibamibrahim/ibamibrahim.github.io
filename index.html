@@ -10,8 +10,8 @@
     <link rel="icon" href="favicon.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
     <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <!-- <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet"> -->
+    <!-- <link href="css/bootstrap.min.css" rel="stylesheet"> -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
 </head>
 
@@ -51,7 +51,8 @@
         <div id="lead-content">
             <h1>Ibrahim</h1>
             <h2>Data Analyst</h2>
-            <a href="https://docs.google.com/document/d/1m3Bn-SLT-8UCunH43EjwupQ6ySHE3bs7pm6kRVu4bdI/edit" target="_blank" class="btn-rounded-white">Download Resume</a>
+            <a href="https://docs.google.com/document/d/1m3Bn-SLT-8UCunH43EjwupQ6ySHE3bs7pm6kRVu4bdI/edit"
+                target="_blank" class="btn-rounded-white">Download Resume</a>
         </div>
         <!-- End #lead-content -->
 
@@ -178,14 +179,24 @@
 
     <div id="projects" class="background-alt">
         <h2 class="heading">Projects</h2>
+        <div class="container" style="margin-bottom: 30px;">
+            <div class="row">
+                <span class="label label-primary">Machine Learning</span>
+                <span class="label label-warning">Information Retrieval</span>
+                <span class="label label-info">Dataset</span>
+            </div>
+        </div>
         <div class="container">
             <div class="row">
                 <div class="project no-image">
                     <div class="project-info">
+                        <span class="label label-primary" style="float: right;">Machine Learning</span>
                         <h3>Indonesia News Title Category Prediction (On Going)</h3>
                         <p>
-                            The project goal is to categorized a news based on its title. The available categories are News (general news), Finance, Health, Automotive, Sport, Travel, etc. <br>
-                            The dataset used containing more than 90.000 news titles from Indonesian news site (detik.com)
+                            The project goal is to categorized a news based on its title. The available categories are
+                            News (general news), Finance, Health, Automotive, Sport, Travel, etc. <br>
+                            The dataset used containing more than 90.000 news titles from Indonesian news site
+                            (detik.com)
                         </p>
                         <a disabled>View Project</a>
                     </div>
@@ -194,44 +205,65 @@
                 <!-- End .project -->
                 <div class="project no-image">
                     <div class="project-info">
+                        <span class="label label-primary" style="float: right;">Machine Learning</span>
                         <h3>Facial Recognizer using Pins Celebrity Dataset</h3>
                         <p>
-                            This project is being done as one of bootcamp final assigment. <br> The dataset being used is <a href='https://www.kaggle.com/hereisburak/pins-face-recognition' target="_blank">Pins Celebrity Dataset</a> that contains 105 person labels. The technique being used is by using transfer learning (FaceNet). The model latter is converted to TfLite in order to run classification from mobile phone. 
+                            This project is being done as one of bootcamp final assigment. <br> The dataset being used
+                            is <a href='https://www.kaggle.com/hereisburak/pins-face-recognition' target="_blank">Pins
+                                Celebrity Dataset</a> that contains 105 person labels. The technique being used is by
+                            using transfer learning (FaceNet). The model latter is converted to TfLite in order to run
+                            classification from mobile phone.
                         </p>
-                        <a href="https://colab.research.google.com/drive/1BrU2Ld3_UtGQq-lYjCpDYTypQ3o1f68b#scrollTo=91y9PVhu9Uwf" target="_blank">View Project</a>
+                        <a href="https://colab.research.google.com/drive/1BrU2Ld3_UtGQq-lYjCpDYTypQ3o1f68b#scrollTo=91y9PVhu9Uwf"
+                            target="_blank">View Project</a>
                     </div>
                     <!-- End .project-info -->
                 </div>
                 <!-- End .project -->
                 <div class="project no-image">
                     <div class="project-info">
+                        <span class="label label-warning" style="float: right;">Information Retrieval</span>
                         <h3>Indonesia News Title Topic Extractor</h3>
                         <p>
-                           The project goal is to extract the main topic of a news title. For example, if a news titled ' The Government is Considered to Open School at January', the model will return 'Government, Corona, School' as the topics. The topic is extracted using TF-IDF method. The dataset used containing more than 90.000 news titles from Indonesian news site (detik.com)
+                            The project goal is to extract the main topic of a news title. For example, if a news titled
+                            ' The Government is Considered to Open School at January', the model will return
+                            'Government, Corona, School' as the topics. The topic is extracted using TF-IDF method. The
+                            dataset used containing more than 90.000 news titles from Indonesian news site (detik.com)
                         </p>
-                        <a href="https://github.com/ibamibrahim/news-title-extract/blob/master/News_Title_Topic_Extraction.ipynb" target="_blank">View Project</a>
+                        <a href="https://github.com/ibamibrahim/news-title-extract/blob/master/News_Title_Topic_Extraction.ipynb"
+                            target="_blank">View Project</a>
                     </div>
                     <!-- End .project-info -->
                 </div>
                 <!-- End .project -->
                 <div class="project no-image">
                     <div class="project-info">
+                        <span class="label label-info" style="float: right;">Dataset</span>
                         <h3>Indonesia News Title Dataset</h3>
                         <p>
-                            This dataset containing 90.000 news titles dataset from Indonesian news site (detik.com) <br>
+                            This dataset containing 90.000 news titles dataset from Indonesian news site (detik.com)
+                            <br>
                             Scraped using BeautifulSoup4
                         </p>
-                        <a href='https://github.com/ibamibrahim/news-title-dataset/blob/master/sample.csv' target="_blank">View Project</a>
+                        <a href='https://github.com/ibamibrahim/news-title-dataset/blob/master/sample.csv'
+                            target="_blank">View Project</a>
                     </div>
                     <!-- End .project-info -->
                 </div>
                 <!-- End .project -->
                 <div class="project no-image">
                     <div class="project-info">
+                        <span class="label label-warning" style="float: right;">Information Retrieval</span>
                         <h3>Quran Full Text Search Engine (Thesis Research)</h3>
                         <p>
-                            This research do some experiments regarding information retrieval by using some models. Those models are Language Model, Okapi BM25, and Vector Space Model. This research also propose some experiment scenarios based on the various usage of translation and tafseer data. The result is Language Model the best perform model with 55% precision at 5, 46% precision at 10, and 64% MAP. Furthermore, this research also explore the incorporation of query expansion using word embedding.                        </p>
-                        <a href="https://docs.google.com/presentation/d/1rCyAGzzSRbq3RKzss73e8yXUY86bspkwIOIw264B4kE/edit?usp=sharing" target="_blank">View Project</a>
+                            This research do some experiments regarding information retrieval by using some models.
+                            Those models are Language Model, Okapi BM25, and Vector Space Model. This research also
+                            propose some experiment scenarios based on the various usage of translation and tafseer
+                            data. The result is Language Model the best perform model with 55% precision at 5, 46%
+                            precision at 10, and 64% MAP. Furthermore, this research also explore the incorporation of
+                            query expansion using word embedding. </p>
+                        <a href="https://docs.google.com/presentation/d/1rCyAGzzSRbq3RKzss73e8yXUY86bspkwIOIw264B4kE/edit?usp=sharing"
+                            target="_blank">View Project</a>
                     </div>
                     <!-- End .project-info -->
                 </div>
@@ -319,6 +351,9 @@
     <!-- End footer -->
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
     <script src="js/scripts.min.js"></script>
 </body>
 
