@@ -265,7 +265,7 @@ footer {
     height: 100vh;
     min-height: 500px;
     max-height: 1080px;
-    background: url(https://images.pexels.com/photos/590041/pexels-photo-590041.jpeg?crop=entropy&cs=srgb&dl=background-board-chart-data-590041.jpg&fit=crop&fm=jpg&h=1271&w=1920);
+    background: url(https://i.pinimg.com/originals/54/dd/2a/54dd2a6c17f894e233848e18eaa242d9.jpg);
     background-size: cover;
     padding: 15px;
     overflow: hidden
@@ -308,7 +308,8 @@ footer {
     right: 0;
     bottom: 0;
     left: 0;
-    background: rgba(33, 125, 187, 0.8);
+    /* background: rgba(33, 125, 187, 0.8); */
+    background: rgba(0, 0, 0, .7);
     z-index: 1
 }
 
